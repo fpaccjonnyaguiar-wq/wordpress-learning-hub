@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guides - WordPress Learning Hub</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Practical WordPress setup, security, and optimization guides." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">WordPress <span>Learning Hub</span></a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="guides.html">Guides</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <h1>WordPress Learning Hub</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="guides.html">Guides</a>
-    <a href="reviews.html">Reviews</a>
-    <a href="about.html">About</a>
-  </nav>
-</header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Guides</div>
+        <h1>Practical WordPress Learning Guides</h1>
+        <p>
+          A growing collection of implementation-focused articles covering setup, security,
+          performance, and essential maintenance for WordPress sites.
+        </p>
+      </div>
+    </section>
 
-<div class="section">
-  <h1>Guides</h1>
+    <section class="section">
+      <div class="container list">
+        <a class="list-item" href="guides/install-wordpress.html">
+          <div class="meta">Beginner Guide</div>
+          <h2>How to Install WordPress from Scratch</h2>
+          <p>Initial installation flow, configuration priorities, and basic launch checklist for a clean first deployment.</p>
+        </a>
 
-  <div class="card">
-    <h3>How to Install WordPress</h3>
-    <p>Step-by-step guide to installing WordPress and configuring your first site.</p>
-  </div>
+        <a class="list-item" href="guides/security-setup.html">
+          <div class="meta">Security Guide</div>
+          <h2>Basic WordPress Security Setup</h2>
+          <p>Core protections for small sites, including update routines, passwords, backups, and plugin discipline.</p>
+        </a>
 
-  <div class="card">
-    <h3>Basic WordPress Security Setup</h3>
-    <p>Essential steps to protect your site using plugins and best practices.</p>
-  </div>
+        <a class="list-item" href="guides/speed-optimization.html">
+          <div class="meta">Performance Guide</div>
+          <h2>Speed Optimization Basics</h2>
+          <p>A practical overview of caching, image handling, themes, and the most common performance bottlenecks.</p>
+        </a>
+      </div>
+    </section>
+  </main>
 
-  <div class="card">
-    <h3>Speed Optimization Basics</h3>
-    <p>Improve performance with caching, images, and lightweight themes.</p>
-  </div>
-
-</div>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 WordPress Learning Hub</div>
+      <div>Educational content initiative for the WordPress community.</div>
+    </div>
+  </footer>
 </body>
 </html>
